@@ -2,7 +2,8 @@ const questions = document.querySelectorAll(".question");
 const answers = document.querySelectorAll(".answer");
 const questionTitles = document.querySelectorAll(".question-title");
 questions.forEach((question, index) => {
-  questionTitles[1].querySelector("h4").style.fontWeight = "bold";
+  questionTitles[1].querySelector(".question-title_text").style.fontWeight =
+    "bold";
   question.addEventListener("click", (e) => {
     answers.forEach((answer, i) => {
       index == i
@@ -13,8 +14,8 @@ questions.forEach((question, index) => {
 });
 questionTitles.forEach((title) => {
   title.addEventListener("click", (e) => {
-    questionTitles.forEach((h4) => {
-      h4.querySelector("h4").style.fontWeight = "lighter";
+    questionTitles.forEach((t) => {
+      t.querySelector(".question-title_text").style.fontWeight = "lighter";
     });
 
     questionTitles.forEach((image) => {
@@ -23,7 +24,7 @@ questionTitles.forEach((title) => {
         .setAttribute("src", "images/icon-arrow-down.svg");
     });
 
-    title.querySelector("h4").style.fontWeight = "bold";
+    title.querySelector(".question-title_text").style.fontWeight = "bold";
 
     title.querySelector("img").setAttribute("src", "images/icon-arrow-up.svg");
   });

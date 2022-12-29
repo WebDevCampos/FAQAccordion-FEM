@@ -126,6 +126,7 @@ main {
 .question-title_text {
   font-size: 1.6rem;
   font-weight: lighter;
+  color: var(--very-dark-grayish-blue);
 }
 .question-title_arrow img {
   width: 10px;
@@ -141,6 +142,7 @@ main {
 .answer {
   display: none;
   padding: 1rem 0;
+  color: var(--dark-grayish-blue);
 }
 
 .attribution {
