@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [This very repo](https://your-solution-url.com)
-- Live Site URL: [Hosted by Netlify](https://your-live-site-url.com)
+- Solution URL: [This very repo](https://github.com/WebDevCampos/FAQAccordion-FEM)
+- Live Site URL: [Hosted by Netlify](https://faqfementor.netlify.app/)
 
 ## My process
 
