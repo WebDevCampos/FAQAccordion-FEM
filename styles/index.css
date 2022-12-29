@@ -124,6 +124,7 @@ main {
   align-items: start;
 }
 .question-title_text {
+  font-size: 1.6rem;
   font-weight: lighter;
 }
 .question-title_arrow img {
