@@ -121,13 +121,14 @@ main {
 .question-title {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 .question-title_text {
   font-weight: lighter;
 }
 .question-title_arrow img {
   width: 10px;
+  margin-top: 1rem;
 }
 .question-title:hover,
 .question-title_text:hover {
@@ -165,6 +166,9 @@ main {
   .img-section,
   .faq-section {
     width: 100%;
+  }
+  .faq-section {
+    padding: 1rem;
   }
   .img-section:first-child {
     width: 100%;
