@@ -119,7 +119,7 @@ main {
 }
 
 .faq-section {
-  height: 45rem;
+  height: auto;
   flex-direction: column;
   padding: 4rem;
 }
@@ -170,11 +170,9 @@ main {
   main {
     flex-direction: column;
     max-width: 35rem;
-    background: url(../images/bg-pattern-mobile.svg) no-repeat,
-      url(../images/illustration-woman-online-mobile.svg) no-repeat;
+    background: url(../images/bg-pattern-mobile.svg) no-repeat 0 13rem,
+      url(../images/illustration-woman-online-mobile.svg) no-repeat 0 0;
     background-size: 100%, 100%;
-    background-position-x: 0;
-    background-position-y: 13rem, 0rem;
     background-color: #fff;
   }
   .img-section {
