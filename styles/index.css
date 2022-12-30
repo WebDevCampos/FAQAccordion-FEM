@@ -84,17 +84,16 @@ main,
   display: flex;
   justify-content: space-between;
 }
-
 main {
   position: relative;
   padding: 1rem;
   align-items: center;
-
   min-height: 26rem;
   max-width: 92rem;
-  background: url("../images/bg-pattern-desktop.svg") no-repeat -16rem 0.1rem,
-    url("../images/illustration-woman-online-desktop.svg") no-repeat -5.8rem 13.4rem;
-  background-size: calc(60% + 5rem), 50%;
+  background: url(../images/bg-pattern-desktop.svg) no-repeat -11rem -0.9000000000000004rem,
+    url(../images/illustration-woman-online-desktop.svg) no-repeat -6.800000000000001rem
+      6.399999999999999rem;
+  background-size: 60%, 60%;
   background-color: #fff;
   border-radius: 2rem;
   margin: 5% auto 0 auto;
@@ -104,8 +103,8 @@ main {
   position: absolute;
   width: 16rem;
   height: 16rem;
-  left: -7.3rem;
-  top: 24.7rem;
+  left: -6.300000000000001rem;
+  top: 22.7rem;
 }
 .img-section {
   width: 50%;
