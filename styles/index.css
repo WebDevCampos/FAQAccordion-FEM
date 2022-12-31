@@ -68,16 +68,17 @@ body,
 
 body {
   max-width: 144rem;
+height:100vh;
   font-family: "Kumbh Sans", sans-serif;
   background: linear-gradient(
-    0deg,
-    var(--soft-blue) 0%,
-    hsla(257, 74%, 65%, 1) 50%,
-    var(--soft-violet) 100%
+    
+    var(--soft-blue),
+    hsla(257, 74%, 65%, 1),
+    var(--soft-violet)
   );
-background-repeat:no-repeat;
+
   margin: 0 auto;
-min-height:100vh;
+
 }
 main,
 .faq-section,
