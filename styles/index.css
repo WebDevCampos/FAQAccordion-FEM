@@ -60,22 +60,19 @@ main {
   width: 100%;
 }
 
-html,
-body,
-.faq-section {
-  height: 100%;
-}
+
+
 
 body {
   max-width: 144rem;
-min-height:85rem;
+height:85rem;
   font-family: "Kumbh Sans", sans-serif;
-  background: linear-gradient(
+  background-image: linear-gradient(
     
     var(--soft-violet),
     hsla(257, 74%, 65%, 1),
     var(--soft-blue)
-  );
+  ) no-repeat;
 background-size:100% 100%;
 margin: 0 auto;
 
@@ -114,6 +111,7 @@ main {
 }
 .faq-section {
   width: 50%;
+height:100%;
 }
 .img-section {
   position: relative;
