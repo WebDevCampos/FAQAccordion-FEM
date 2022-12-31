@@ -68,7 +68,7 @@ body,
 
 body {
   max-width: 144rem;
-height:100vh;
+min-height:85rem;
   font-family: "Kumbh Sans", sans-serif;
   background: linear-gradient(
     
