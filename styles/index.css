@@ -67,13 +67,14 @@ body {
   max-width: 144rem;
 height:85rem;
   font-family: "Kumbh Sans", sans-serif;
-  background-image: linear-gradient(
+  background: linear-gradient(
     
     var(--soft-violet),
     hsla(257, 74%, 65%, 1),
     var(--soft-blue)
-  ) no-repeat;
+  ) ;
 background-size:100% 100%;
+background-repeat:no-repeat;
 margin: 0 auto;
 
 }
