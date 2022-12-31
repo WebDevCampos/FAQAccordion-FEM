@@ -65,7 +65,7 @@ body,
 .faq-section {
   height: 100%;
 }
-html,
+
 body {
   max-width: 144rem;
   font-family: "Kumbh Sans", sans-serif;
@@ -77,7 +77,7 @@ body {
   );
 background-repeat:no-repeat;
   margin: 0 auto;
-height:100vh;
+min-height:100vh;
 }
 main,
 .faq-section,
