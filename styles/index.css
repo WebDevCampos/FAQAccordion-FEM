@@ -76,9 +76,8 @@ min-height:85rem;
     hsla(257, 74%, 65%, 1),
     var(--soft-blue)
   );
-background-repeat:no-repeat;
-
-  margin: 0 auto;
+background-size:100% 100%;
+margin: 0 auto;
 
 }
 main,
